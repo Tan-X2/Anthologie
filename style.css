@@ -1,0 +1,124 @@
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    background-image: url("assets/table.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #4b4641;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page {
+    position: relative;
+    width: 650px;
+    height: 95vh;
+    max-height: 1000px;
+    box-sizing: border-box;
+    padding: 60px;
+    padding-left: 80px;
+    background-image: url("assets/pagev2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 4px 5px 50px #20160f;
+
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.cover {
+        position: relative;
+    width: 650px;
+    height: 95vh;
+    max-height: 1000px;
+    box-sizing: border-box;
+    padding: 60px;
+    padding-left: 80px;
+    background-image: url("assets/coverv3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 100px 100px #070707;
+
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: #a58f46;
+}
+
+h2{
+    text-align: center;
+    font-size: 27px;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.page-change {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    background-color: #2c2823;
+    border: 1px solid #49453f;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.page-change:hover{
+    text-decoration: underline;
+    background-color: #49453f;
+    border: 1px solid #b3b2b2;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: decimal;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: #49453f;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.details {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.justification {
+    text-align: left;
+    font-size: large;
+}
