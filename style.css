@@ -121,4 +121,5 @@ a:hover{
 .justification {
     text-align: left;
     font-size: large;
+    line-height: 1.6;
 }
